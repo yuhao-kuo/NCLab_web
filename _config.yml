@@ -8,29 +8,30 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Feeling Responsive'
+title: 'NKUST Network Computer Lab'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A Flexible Theme for Jekyll'
+slogan: 'NCLAB x WNDC x AIOR'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.'
+description: '教授：朱紹儀 x 劉炳宏 x 謝慶發<br> 位置：高科大 建工校區 圖資大樓 11 樓第 1 間研究室 ( 1101 )。<br> 地址：80778 高雄市三民區建工路415號<br> 電話：( 07 )381-4526 #15656。<br> '
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+credits: '<p>Created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> by <a href="http://www.facebook.com/yanjiunhaha">104級電子系顏君翰</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: YanJiun
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io'
-baseurl: '/feeling-responsive'
+# url: http://www.nclab.nkust.edu.tw
+url: http://localhost:4000
+baseurl:
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+improve_content: # https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -38,8 +39,8 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
-
+# urlimg: 'http://www.nclab.nkust.edu.tw/images/'
+urlimg: 'http://localhost:4000/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
@@ -80,7 +81,8 @@ exclude:
 
 
 # The language setting is used in /includes/header.html for html-settings
-language: 'en'
+#language: 'en'
+language: 'zh_TW'
 
 
 # Used › default.html front-matter and compress.html
@@ -112,7 +114,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: YanJiun     # Default author for pages
   -
     scope:
       path: ''
@@ -121,7 +123,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
+      author: YanJiun     # Default author for posts
 
 
 
@@ -158,17 +160,17 @@ bing_webmastertools_id:    '0FB4C028ABCF07C908C54386ABD2D97F'
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
-favicon-32x32:                          'favicon-32x32.png'
-touch-icon-192x192:                     'touch-icon-192x192.png'
-apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
-apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
-apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
-apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
-apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
-apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
-apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
-apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
-msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
+favicon-32x32:                          'icon_32x32.jpg'
+touch-icon-192x192:                     'icon_192x192.jpg'
+apple-touch-icon-180x180-precomposed:   'icon_180x180.jpg'
+apple-touch-icon-152x152-precomposed:   'icon_152x152.jpg'
+apple-touch-icon-144x144-precomposed:   'icon_145x144.jpg'
+apple-touch-icon-120x120-precomposed:   'icon_120x120.jpg'
+apple-touch-icon-114x114-precomposed:   'icon_114x114.jpg'
+apple-touch-icon-76x76-precomposed:     'icon_76x76.jpg'
+apple-touch-icon-72x72-precomposed:     'icon_72x72.jpg'
+apple-touch-icon-precomposed:           'icon_57x57.jpg'
+msapplication_tileimage:                'icon_144x144.jpg'               # Size 144x144
 msapplication_tilecolor:                '#fabb00'
 
 
